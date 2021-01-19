@@ -26,7 +26,7 @@ class Manager
     end
 
     def self.average_age
-        total_age = all.sum{|manager| manager.age}
+        total_age = all.sum(0.0){|manager| manager.age}
         total_age/(all.length)
     end
 

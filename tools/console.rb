@@ -19,4 +19,4 @@ pam = Employee.new("Pam", 18, doug, customer_support)
 robert = Employee.new("Robert", 23, beth, technician)
 
 binding.pry
-0 #leave this here to ensure binding.pry isn't the last line
+0 #leave this here to ensure binding.pry isn't the last linee

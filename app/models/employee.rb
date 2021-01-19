@@ -28,6 +28,6 @@ class Employee
 
     def get_promoted(role)
         self.role = role
-        salary *= 1.5
+        self.salary *= 1.5
     end
 end
